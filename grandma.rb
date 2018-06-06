@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-
+def speak_to_grandma
 
 if grandma == "whatever you say to grandma"
   puts "Huh?! Speak up, sonny!".upcase
@@ -21,4 +21,5 @@ elsif grandma == "she thinks she can hear you"
   puts "No, not since 1938!".upcase
 else grandma == "I love you grandma!".upcase
   puts "I love you too pumpkin!".upcase
+end
 end
