@@ -19,7 +19,7 @@ if phrase == "I love you grandma!".upcase
   return "I love you too pumpkin!".upcase
 elsif phrase == phrase.upcase
   return "No, not since 1938!".upcase
-else 
+else
   return "Huh?! Speak up, sonny!".upcase
 end
 end
