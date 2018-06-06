@@ -15,11 +15,11 @@
 
 def speak_to_grandma(phrase)
 
-if phrase == (phrase.downcase)
-  puts "Huh?! Speak up, sonny!".upcase
-elsif phrase != "I love you grandma".upcase
-  puts "No, not since 1938!".upcase
-else phrase == "I love you grandma!".upcase
-  puts "I love you too pumpkin!".upcase
+if phrase == "I love you grandma!".upcase
+  return "I love you too pumpkin!".upcase
+elsif phrase == phrase.upcase
+  return "No, not since 1938!".upcase
+else 
+  return "Huh?! Speak up, sonny!".upcase
 end
 end
