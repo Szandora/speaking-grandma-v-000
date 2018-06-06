@@ -19,7 +19,7 @@ if phrase == (phrase.downcase)
   puts "Huh?! Speak up, sonny!".upcase
 elsif phrase !== "I love you grandma".upcase
   puts "No, not since 1938!".upcase
-else grandma == "I love you grandma!".upcase
+else phrase == "I love you grandma!".upcase
   puts "I love you too pumpkin!".upcase
 end
 end
